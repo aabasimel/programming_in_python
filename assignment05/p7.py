@@ -1,3 +1,10 @@
+# CTMS-14
+# a4 p7.py
+# Ahmed Abasimel
+# aabasimel@constructor.university
+
+
+
 s = input("Enter a string: ")
 
 while True:
