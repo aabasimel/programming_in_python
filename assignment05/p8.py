@@ -1,3 +1,10 @@
+# CTMS-14
+# a4 p8.py
+# Ahmed Abasimel
+# aabasimel@constructor.university
+
+
+
 data = "Python is a great programming language"
 
 #This prints the list of words within the string
