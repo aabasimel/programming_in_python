@@ -1,3 +1,10 @@
+# CTMS-14
+# a4 p9.py
+# Ahmed Abasimel
+# aabasimel@constructor.university
+
+
+
 text = input("Enter the main text: ")
 s = input("Enter the substring to be replaced: ")
 r = input("Enter the replacing substring: ")
