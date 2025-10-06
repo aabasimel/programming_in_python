@@ -8,10 +8,7 @@
 # Ahmed Abasimel
 # myemail@constructor.university
 
-# CTMS-14
-# a2 p1.py
-# Ahmed Abasimel
-# myemail@constructor.university
+
 
 import os
 
