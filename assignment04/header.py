@@ -1,12 +1,4 @@
-# CTMS-14
-# a4 p2.py
-# Ahmed Abasimel
-# myemail@constructor.university
 
-# CTMS-14
-# a4 p1.py
-# Ahmed Abasimel
-# myemail@constructor.university
 
 
 
