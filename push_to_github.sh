@@ -17,7 +17,7 @@ echo "Current directory: $(pwd)"
 if [ ! -d ".git" ]; then
     echo "Initializing new git repository..."
     git init
-    git remote add origin https://github.com/aabasimel/python-object-oriented-programming.git
+    git remote add origin https://github.com/aabasimel/programming_in_python
 else
     echo "Git repository already initialized."
 fi
