@@ -3,40 +3,16 @@
 # Ahmed Abasimel
 # aabasimel@constructor.university
 
+example_dict = {
+    "apple": 5,
+    "banana": 3,
+    "orange": 7,
+    "grape": 2
+}
 
-stack=[]
+key_to_check = input("Enter a key to check: ")
 
-def push(num):
-    stack.append(num)
-    print(f'Pushing {num}')
-
-def pop():
-    if stack:
-        elem=stack.pop()
-        print(f'Popping element {elem}')
-    else:
-        print("Stack underflow")
-
-def empty():
-    print("Emptying stack")
-    while stack:
-        pop()
-while True:
-    command = input().strip().lower()
-    
-    if command == "s":  
-        num = int(input().strip())
-        push(num)
-    
-    elif command == "p":
-        pop()
-    
-    elif command == "e":
-        empty()
-    
-    elif command == "q":
-        print("Good Bye!")
-        break
-    
-    else:
-        print("Invalid command")
+if key_to_check in example_dict:
+    print(f"The key '{key_to_check}' is present in the dictionary.")
+else:
+    print(f"The key '{key_to_check}' is NOT present in the dictionary.")

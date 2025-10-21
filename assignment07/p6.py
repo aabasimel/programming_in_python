@@ -3,16 +3,19 @@
 # Ahmed Abasimel
 # aabasimel@constructor.university
 
-example_dict = {
-    "apple": 5,
-    "banana": 3,
-    "orange": 7,
-    "grape": 2
+
+def key_with_min_value(d):
+    if not d:  # handle empty dictionary
+        return None
+    return min(d, key=d.get)
+
+sampleDict = {
+    'Physics': 82,
+    'Math': 85,
+    'History': 75,
+    'Management': 70,
+    'Chemistry': 72
 }
 
-key_to_check = input("Enter a key to check: ")
-
-if key_to_check in example_dict:
-    print(f"The key '{key_to_check}' is present in the dictionary.")
-else:
-    print(f"The key '{key_to_check}' is NOT present in the dictionary.")
+min_key = key_with_min_value(sampleDict)
+print(f"The subject with the minimum score is: {min_key}")
