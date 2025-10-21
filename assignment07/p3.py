@@ -1,3 +1,8 @@
+# CTMS-14
+# a7 p3.py
+# Ahmed Abasimel
+# aabasimel@constructor.university
+
 def scalar_product(v, w):
     """Compute the scalar (dot) product of two vectors."""
     return sum(a * b for a, b in zip(v, w))

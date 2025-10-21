@@ -1,3 +1,8 @@
+# CTMS-14
+# a7 p1.py
+# Ahmed Abasimel
+# aabasimel@constructor.university
+
 def longest_word(lst):
     return max(lst,key=len)
 

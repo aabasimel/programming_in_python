@@ -1,3 +1,8 @@
+# CTMS-14
+# a7 p5.py
+# Ahmed Abasimel
+# aabasimel@constructor.university
+
 # Collect integers from the user until a negative number is entered
 elements = []
 

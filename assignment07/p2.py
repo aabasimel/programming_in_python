@@ -1,3 +1,8 @@
+# CTMS-14
+# a7 p2.py
+# Ahmed Abasimel
+# aabasimel@constructor.university
+
 dict = {
     "merry": "god",
     "christmas": "jul",
