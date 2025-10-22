@@ -12,4 +12,5 @@ words=text.split()
 longest= longest_word(words)
 
 print("The longest word is:", longest)
+
 print("Length of the longest word:", len(longest))
