@@ -1,3 +1,7 @@
+# CTMS-14
+# a9 p5.py
+# Ahmed Abasimel
+# aabasimel@constructor.university
 
 class Student:
     def __init__(self,name,quiz1,quiz2,quiz3):
