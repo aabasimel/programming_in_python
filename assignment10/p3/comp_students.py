@@ -16,7 +16,6 @@ def test_student_comparisons():
     student3 = Student("Alice", 5)  # Same name as student1, different number of scores
     student4 = Student("Charlie", 3)
     
-    # Set some scores to make them more realistic
     student1.setScore(1, 85)
     student1.setScore(2, 90)
     student1.setScore(3, 78)

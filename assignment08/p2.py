@@ -1,3 +1,9 @@
+# CTMS-14
+# a8 p2.py
+# Ahmed Abasimel
+# aabasimel@constructor.university
+
+
 # Read input values from the user
 start = float(input("Enter start length in inches: "))
 step = float(input("Enter step size in inches: "))
